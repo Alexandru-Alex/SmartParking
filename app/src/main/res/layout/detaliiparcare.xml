@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true"
+    tools:context=".Interfete.Detaliiparcare">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <ImageView
+            android:id="@+id/imagineparcare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoa"
+            android:contentDescription="@string/pret"
+            />
+        <TextView
+            android:id="@+id/titlu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:shadowRadius="50"
+            android:shadowColor="@color/albastrudeschis"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+    <Button
+        android:id="@+id/plateste"
+        android:layout_width="76sp"
+        android:layout_height="76sp"
+        android:layout_gravity="center"
+        android:background="@drawable/separator"
+        android:text="@string/plateste"
+        android:textColor="@color/alb" />
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="11dp"
+        android:shadowColor="@color/albastrudeschis"
+        android:shadowRadius="50"
+        android:text="@string/nota"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/recenzii"
+        android:layout_width="51dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="18dp"
+
+        android:background="@drawable/recenzii" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10sp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pret"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="50"
+                android:gravity="center"
+                android:background="@color/gri"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/afiseazapret"
+                android:layout_width="27dp"
+                android:layout_height="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="29dp"
+                android:background="@drawable/plus"
+                android:paddingTop="20dp"
+                android:textColor="@color/colorPrimary" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listapreturi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:nestedScrollingEnabled="true"
+            android:listSelector="@android:color/transparent"
+            android:paddingTop="20dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/program"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="50"
+                android:gravity="center"
+                android:background="@color/gri"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/afiseazaprogram"
+                android:layout_width="27dp"
+                android:layout_height="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="29dp"
+                android:background="@drawable/plus"
+                android:paddingTop="20dp"
+                android:textColor="@color/colorPrimary" />
+        </RelativeLayout>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/listaprogram"
+                android:nestedScrollingEnabled="true"
+                android:listSelector="@android:color/transparent"
+                android:paddingTop="20dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dotari"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="50"
+                android:gravity="center"
+                android:background="@color/gri"
+
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/afiseazadotari"
+                android:layout_width="27dp"
+                android:layout_height="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="29dp"
+                android:background="@drawable/plus"
+                android:paddingTop="20dp"
+                android:textColor="@color/colorPrimary" />
+        </RelativeLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/listadotari"
+            android:paddingTop="20dp"
+            android:listSelector="@android:color/transparent"
+            android:paddingBottom="20dp"
+
+            android:nestedScrollingEnabled="true"/>
+        <com.google.android.gms.maps.MapView
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:id="@+id/harta1"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+

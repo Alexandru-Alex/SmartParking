@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recenziidate"
+        android:nestedScrollingEnabled="true"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight=".5"
+        >
+
+        <RatingBar
+            android:id="@+id/notarecenzie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:progressTint="@color/colorPrimary"
+            android:transformPivotY="30dp"
+
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/recenziescrisa"
+            android:importantForAutofill="no"
+            tools:targetApi="o" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:text="@string/trimite"/>
+        <TextView
+            android:id="@+id/nupoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="15dp"
+            android:textSize="15sp"
+            android:text="@string/nusepoate"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="10sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

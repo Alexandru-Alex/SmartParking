@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="15dp"
+                android:textSize="15sp"
+                android:layout_gravity="center|top"
+                android:text="@string/text"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/ora"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:text="@string/text"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/pret"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="15sp"
+                android:text="@string/text"
+                android:gravity="end"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

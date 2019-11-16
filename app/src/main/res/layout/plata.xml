@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interfete.Plata"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/margini">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/parcare"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:drawableStart="@drawable/parkingicon" />
+
+        <TextView
+            android:id="@+id/nume_parcare_plata"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/margini">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/masina"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/caricon"
+            android:gravity="center"
+            android:paddingTop="10dp"
+
+
+            />
+        <Spinner
+            android:id="@+id/masina_plata"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center">
+        </Spinner>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/nrinmatriculare"
+            android:layout_marginTop="20dp"
+            android:inputType="textCapCharacters"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/margini">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/metoda"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:drawableStart="@drawable/card" />
+        <Spinner
+            android:id="@+id/metoda_plata"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:gravity="center">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/margini">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/durata"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:drawableStart="@drawable/clock"
+
+            />
+        <Spinner
+            android:id="@+id/durata_plata"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            ></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textColor="@color/colorPrimary"
+            android:shadowRadius="50"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:background="@color/gri"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/total_plata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:shadowRadius="50"
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <Button
+        android:id="@+id/plata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-5dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/alb"
+
+        android:text="@string/plateste_acum"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

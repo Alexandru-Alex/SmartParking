@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">A-Parking</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="api_key">AIzaSyCkMpKnTxwBE2mgWOHFAcCFk3sQsyzxbtA</string>
+    <string name="passhint">Password</string>
+    <string name="userhint">Username</string>
+    <string name="checklogare">Mentine-ma conectat</string>
+    <string name="pret">Tarife</string>
+    <string name="nume">Nume</string>
+    <string name="prenume">Prenume</string>
+    <string name="parola">Parola</string>
+    <string name="verificareparola">Verificare-Parola</string>
+    <string name="email">E-mail</string>
+    <string name="inregistrare">Inregistrare</string>
+    <string name="logare">Logare</string>
+    <string name="recuperare_parola">Recuperare Parola</string>
+    <string name="plateste">PLATESTE</string>
+    <string name="dotari">Dotari</string>
+    <string name="program">Program</string>
+    <string name="nota">Nota</string>
+    <string name="recenzii">Recenzii</string>
+    <string name="nusepoate">Trebuie sa aveti un cont,pentru a putea lasa o recenzie</string>
+    <string name="trimite">Trimite</string>
+    <string name="delogare">Delogare</string>
+    <string name="autovehicule">Autovehicule</string>
+    <string name="profil">Profil</string>
+    <string name="plati">Plati</string>
+    <string name="parcari">P. Recente</string>
+    <string name="Nrnou">Numar nou</string>
+    <string name="metoda">Metoda de plata</string>
+    <string name="masina">Masina</string>
+    <string name="durata">Durata parcarii</string>
+    <string name="parcare">Parcare</string>
+    <string name="plateste_acum">Plateste acum</string>
+    <string name="username">Username</string>
+    <string name="text">TEXT</string>
+    <string name="total">TOTAL</string>
+    <string name="plati_de_efectuat">Plati efectuate</string>
+    <string name="nr_de_autoturisme">Nr de Autoturisme</string>
+    <string name="inchidere_cont">Inchidere cont</string>
+
+
+</resources>

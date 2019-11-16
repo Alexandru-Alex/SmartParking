@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4400C0</color>
+    <color name="colorPrimaryDark">#4400C0</color>
+    <color name="colorinceput">#3E00B3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#001181</color>
+    <color name="scris">#AAB6FF</color>
+    <color name="nonselect">#5700FF</color>
+    <color name="finalgradient">#8647FF</color>
+    <color name="alb">#ffff</color>
+    <color name="albicios">#F1F0FF</color>
+    <color name="albastrudeschis">#03A9F4</color>
+    <color name="transparent">#00000000</color>
+    <color name="gri">#CCCCCC</color>
+    <color name="gradientbutoninceput">#B11650</color>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradientlogin"
+    tools:context=".Interfete.Inregistrare"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:id="@+id/inregistarelinear">
+        <ProgressBar
+            android:id="@+id/progres"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:autofillHints="@string/email"
+            tools:targetApi="o"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="20sp"
+            android:textColor="@color/alb"
+            android:textColorHint="@color/alb"
+            android:id="@+id/emailrecuperare"
+            />
+
+        <Button
+            android:id="@+id/recuperare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:background="@drawable/buton_login"
+            android:text="@string/recuperare_parola"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+

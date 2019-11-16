@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/parcare1"
+        android:title="Parcari"/>
+    <item android:id="@+id/selec2"
+        android:title="Inregistrare"/>
+    <item android:id="@+id/selec4"
+        android:title="Panou de control"/>
+     <item android:id="@+id/selec5"
+        android:title="Logout"/>
+    <item android:id="@+id/selec6"
+        android:title="Login"/>
+
+
+
+</menu>

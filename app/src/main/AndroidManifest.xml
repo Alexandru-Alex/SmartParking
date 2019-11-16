@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.smartparking">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Interfete.Profil"/>
+        <activity android:name=".Interfete.ParcariCurente" />
+        <activity android:name=".Interfete.ListaPlati" />
+        <activity android:name=".Interfete.Plata" />
+        <activity android:name=".Interfete.ListaAutovehicule" />
+        <activity
+            android:name=".Interfete.Recenzii"
+            android:theme="@style/AppTheme.PopupRecenzie" />
+        <activity
+            android:name=".Interfete.Detaliiparcare"
+            android:parentActivityName=".Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interfete.RecuperareParola"
+            android:parentActivityName=".Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interfete.Inregistrare"
+            android:parentActivityName=".Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+    </application>
+
+</manifest>
